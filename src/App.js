@@ -1,5 +1,5 @@
-// import Navbar from "./Components/Navbar";
-// import Skuska from "./Components/Skuska";
+import Navbar from "./Components/Navbar";
+import Skuska from "./Components/Skuska";
 import VrchStranky from "./Components/VrchStranky";
 import Obchody from "./Components/Obchody"
 import Kruh from "./Components/Kruh"
@@ -10,13 +10,13 @@ function App() {
   return (
     <div>
 
-     <Navbar/> 
+     <Navbar/>  
      <Skuska/>
       <VrchStranky/>
       <Obchody/>
-      <Kruh/>
+      {/* <Kruh/> */}
       <h1>
-        test
+        testgit 
       </h1>
 
     </div>
